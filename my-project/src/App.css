@@ -1,0 +1,19 @@
+/* Custom Scrollbar Styles for the .text class */
+.text::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+  }
+  
+  .text::-webkit-scrollbar-track {
+    background: #f7f7f8; /* Track background color */
+    border-radius: 10px; /* Rounded corners for the track */
+  }
+  
+  .text::-webkit-scrollbar-thumb {
+    background: #d3a7e5; /* Thumb color */
+    border-radius: 10px; /* Rounded corners for the thumb */
+  }
+  
+  .text::-webkit-scrollbar-thumb:hover {
+    background: #b86ac3; /* Thumb color on hover */
+  }
+  
